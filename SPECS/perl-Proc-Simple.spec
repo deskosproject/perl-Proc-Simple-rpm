@@ -1,6 +1,6 @@
 Name:           perl-Proc-Simple
 Version:        1.26
-Release:        12%{?dist}
+Release:        13%{?dist}
 Summary:        Launch and control background processes
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -47,6 +47,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/*
 
 %changelog
+* Fri Nov 25 2016 Ricardo Arguello <rarguello@deskosproject.org> - 1.26-13
+- Rebuilt for DeskOS
+
 * Sun Aug 04 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.26-12
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_20_Mass_Rebuild
 
